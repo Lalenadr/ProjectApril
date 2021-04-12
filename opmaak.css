@@ -3,10 +3,9 @@
     width: 300px;
   }
 
+.list {width: 80%;}
 
-  .list {width: 80%;}
-
-  .list td  {
+.list td  {
     br-rightorder-top-style: dotted;
     borde-style: dotted;
     border-bottom-style: dotted;
@@ -15,11 +14,15 @@
     border-top: dotted;
   }
 
-  .post-item {
+.post-item {
     background-color: cadetblue;
     padding-left: 1cm;
     padding-top: 1cm;
     padding-bottom: 1cm;}
+
+.post-item h3 {
+    color: white;
+  }
 
 footer {
   background-color:grey;
