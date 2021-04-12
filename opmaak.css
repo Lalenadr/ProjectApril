@@ -12,3 +12,15 @@
     }
 
   table {width: 80%;}
+
+  .post-item {
+    background-color: cadetblue;
+    padding-left: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;}
+
+footer {
+  background-color:grey;
+  padding-left: 1cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;}
