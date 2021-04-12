@@ -1,10 +1,14 @@
 #test{
-    background-color: red;
-    width: 400px;
+    background-color: rgb(69, 121, 80);
+    width: 300px;
   }
   td {
       br-rightorder-top-style: dotted;
       borde-style: dotted;
       border-bottom-style: dotted;
       border-left-style: dotted;
+      border-right: dotted;
+      border-top: dotted;
     }
+
+  table {width: 80%;}
