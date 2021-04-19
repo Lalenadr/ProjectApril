@@ -1,0 +1,55 @@
+/* 
+
+<div class="parent1"></div>
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+    <div class="parent2"></div>
+
+*/
+
+.parent1 {background-color: blue;
+            height: 250px;
+            width: 250px;
+            margin-left: 50px;
+            margin-top: 50px;
+}
+
+.child1 {background-color: red;
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+    position: absolute;
+    top:60px;
+    left:67px
+}
+
+.child2 {background-color: yellow;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute; 
+    z-index: -4;
+    top: 0px;
+    left:300px
+}
+
+.child3 {background-color: green;
+    width: 400px;
+    height: 200px;
+    padding: 1em;
+    position: absolute;
+    top:150px;
+    left:110px
+}
+
+.child4 {background-color: white;
+    width: 350px;
+    height: 150px;
+    padding: 1em;
+    position: absolute;
+    top:180px;
+    left:135px
+}
