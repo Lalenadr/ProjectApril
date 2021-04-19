@@ -1,13 +1,4 @@
-/* 
 
-<div class="parent1"></div>
-        <div class="child1"></div>
-        <div class="child2"></div>
-        <div class="child3"></div>
-        <div class="child4"></div>
-    <div class="parent2"></div>
-
-*/
 
 .parent1 {background-color: blue;
             height: 250px;
@@ -52,4 +43,34 @@
     position: absolute;
     top:180px;
     left:135px
+}
+
+/* FLEXBOX MODEL */
+
+.parentbox{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.child{
+    background-color: fuchsia;
+    padding: 3em;
+    border:5px solid pink;
+}
+
+/* END OF FLEXBOX MODEL */
+
+/* media stuff */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+   {
+
+    .parentbox{
+        display:block;
+    }
+
+    .child {background-color: orange;
+            font-size: 40px;}
 }

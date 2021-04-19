@@ -1,0 +1,44 @@
+.parent1 {margin: auto;
+    width: 70%;
+    background-color: fuchsia;
+    height: 500px;
+  }
+
+.child1 {
+        background-color: blue;
+        height: 350px;
+        width: 25%;
+        position: absolute;
+        left: 20%;
+        top: 50px;}
+
+.mini {
+    background-color: white;
+    height: 300px;
+    width: 20%;
+    position: absolute;
+    left: 22.5%;
+    top: 75px;}
+
+.child2 {
+            background-color: grey;
+            height: 350px;
+            width: 25%;
+            position: absolute;
+            left: 55%;
+            top: 50px;
+           }  
+
+.child3 {background-color: green;
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 150px;}
+
+    .child4 {background-color: whitesmoke;
+        height: 250px;
+        width: 45%;
+        position: absolute;
+        left: 27.5%;
+        top: 175px;}
