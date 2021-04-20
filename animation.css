@@ -1,0 +1,56 @@
+@keyframes sleep {from {transform: rotate(0deg);}
+                    to {transform: rotate(359deg);}
+    
+}
+
+header {background-color: cadetblue;
+        padding: 40px;}
+
+h1 {color: cornsilk;
+    text-shadow: 5px 7px 9px;
+    text-align: center;}
+
+.zz {text-align: center;
+    color: black;
+    animation: sleep 5s infinite linear;}
+
+body {background-image: radial-gradient(circle, rgba(25, 136, 247, 1) 0%, rgba(240, 168, 204, 1) 65%, rgba(247, 25, 136, 1) 99%);}
+
+.dog {object-fit: contain;
+    animation: dog 20s ease 0s infinite normal forwards;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  @keyframes dog {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+  
+    15% {
+      transform: translateX(-30px) rotate(6deg);
+    }
+  
+    30% {
+      transform: translateX(15px) rotate(-6deg);
+    }
+  
+    45% {
+      transform: translateX(-15px) rotate(3.6deg);
+    }
+  
+    60% {
+      transform: translateX(9px) rotate(-2.4deg);
+    }
+  
+    75% {
+      transform: translateX(-6px) rotate(1.2deg);
+    }
+  }
+
