@@ -44,7 +44,8 @@ h1 {text-align: center;
             grid-gap: 20px;}            
             
 @media screen and (max-width: 500px) {
-    .container {display: list-item;
+    .container {display: flex;
+                flex-direction: column;
                 border: solid;
                 border-color: #888888;
     }
