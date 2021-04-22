@@ -1,0 +1,36 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 25%;
+  padding: 10px;
+  background-color: blueviolet;
+
+}
+
+.column2 {
+  flex: 15%;
+  padding: 10px;
+
+}
+
+.column3 {
+  flex: 60%;
+  padding: 10px;
+
+}
+
+@media screen and (max-width: 716px) {
+
+    .row {
+        flex-direction: column;
+      }
+      
+    
+}
